@@ -1,0 +1,20 @@
+{
+    "queries": [
+        {
+            "id": "ai_conditioning",
+            "query": "ti:conditioning+AND+cat:cs.AI&max_results=20&sortBy=relevance"
+        },
+        {
+            "id": "latest_ai_conditioning",
+            "query": "ti:conditioning+AND+cat:cs.AI&max_results=5&sortBy=submittedDate&sortOrder=descending"
+        },
+        {
+            "id": "generative_music_evaluation",
+            "query": "%28ti:%22music+evaluation%22%29AND+cat:cs.SD&max_results=20&sortBy=relevance"
+        },
+        {
+            "id": "audio_synthetis",
+            "query": "%28ti:%22audio+synthesis%22%29AND+cat:cs.SD&max_results=20&sortBy=relevance"
+        }
+    ]
+}
